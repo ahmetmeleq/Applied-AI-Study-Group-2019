@@ -1,0 +1,3 @@
+/home/ubuntu/projects/inzva/example-app/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/projects/inzva/example-app/CMakeFiles/edit_cache.dir
+/home/ubuntu/projects/inzva/example-app/CMakeFiles/example-app.dir
