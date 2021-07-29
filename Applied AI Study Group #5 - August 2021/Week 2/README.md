@@ -7,7 +7,9 @@ If Github is not able to render notebooks, use nbviewer links:
 ## Datasets
 
 - [Dataset For Time Series Anomaly Detection](https://drive.google.com/drive/folders/1H1Fi0zeu7o5guQTlp19oyNkHoh2BLSap?usp=sharing)
+  * [Original Source](http://www.timeseriesclassification.com/description.php?Dataset=ECG5000)
 - [Dataset For Time Series Classification](https://drive.google.com/drive/folders/1uwrfAW3JmEw5RVX7pPqZ2BBEEXXogrvm?usp=sharing)
+  * [Original Source](https://www.kaggle.com/c/career-con-2019)
 
 ## Checkpoints
 
