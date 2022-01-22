@@ -1,3 +1,0 @@
-# Homeworks
-
-- Anomaly Detection
