@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <!--the user's visible area of a web page.
+    This gives the browser instructions on 
+    how to control the page's dimensions and scaling.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/Users/oredata/Desktop/app engine/1754330.png">
+    <title>Diabetes Prediction</title>
+
+    </head>
+
+    <body>
+        <!-- As a heading -->
+        <nav class="navbar">
+            <a class="a" href="/">Diabetes Prediction</a>
+        </nav>
+        <br>
+        
+        <div class="container">
+
+
+            <form action="\predict" method="post">
+            <div class="left-div" >
+                <h5>Pregnancies</h5>
+                <!-- Pregnancies -->
+                <input type="number" id="Pregnancies" name="Pregnancies">
+
+                <br>
+                <br>
+
+                <h5>Glucose</h5>
+                <!-- Glucose -->
+                <input type="number" step="any" id="Glucose" name="Glucose">
+    
+                <br>
+                <br>
+                
+                <!-- BloodPressure -->
+                <h5>Blood Pressure</h5>
+                <input type="number" step="any" id="BloodPressure" name="BloodPressure">
+
+                <br>
+                <br>
+
+                <h5>Skin Thickness</h5>
+                <!-- SkinThickness -->
+                <input type="number" step="any" id="SkinThickness" name="SkinThickness">
+    
+            </div>
+
+            <div class="right-div" >
+
+                <h5>Insulin</h5>
+                <!-- Insulin -->
+                <input type="number" step="any" id="Insulin" name="Insulin">
+
+                <br>
+                <br>
+
+                <h5>BMI</h5>
+                <!-- BMI -->
+                <input type="number" step="any" id="BMI" name="BMI">
+
+                <br>
+                <br>
+
+                <h5>Diabetes Pedigree Function</h5>
+                <!-- DiabetesPedigreeFunction -->
+                <input type="number" step="any" id="DiabetesPedigreeFunction" name="DiabetesPedigreeFunction">
+
+                <br>
+                <br>
+
+                <h5>Age</h5>
+                <!-- Age -->
+                <input type="number" id="Age" name="Age">
+            </div>
+    
+                <br>
+                <br>
+                <br>
+                
+                <!-- Submit -->
+                <div class="buttonHolder">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+    
+            <br>
+            <br>
+
+            <h3>{{ prediction_text }}</h3>
+    
+            <br>
+            <br>
+    
+        </div>
+        
+        <footer id="main-footer">
+        Copyright &copy; 2021
+        </footer>
+    </body>
+</html>
